@@ -1,0 +1,43 @@
+.main-container {
+      width: 90%;
+      margin: 20px auto;
+      padding: 20px;
+      border: 2px solid #333;
+      border-radius: 10px;
+    }
+
+    /* First and second rows */
+    .first-images-container,
+    .second-images-container {
+      display: flex;
+      justify-content: space-around;
+      margin: 20px 0;
+      padding: 15px;
+      border: 2px solid #666;
+      border-radius: 8px;
+    }
+
+    /* Each item */
+    .item-container {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      border: 2px solid #444;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+      flex-shrink: 0;
+      background: #f2f2f2;
+      font-size: 14px;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    /* Replace with actual images */
+    .item-container img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 50%;
+    }
